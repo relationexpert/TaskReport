@@ -1,6 +1,6 @@
 # Response to Reviewer 6f5c
 
-*$\textbf{Q3:}$ More related works should be cited in Section Introduction.*
+$\textbf{Q3:}$ More related works should be cited in Section Introduction.
 
 $\textbf{A3:}$ Thank you for your advice. We appreciate your suggestion to include more related works. We will expand our Introduction section to provide a more comprehensive overview of existing approaches in e-commerce representation learning. We would like to emphasize that **RelationExpert is the first work to propose a general e-commerce self-supervised representation learning framework** that combines RelationEmbed: a hypergraph foundation model designed to capture complex group-wise relationships in e-commerce data. and TaskReport: an interpretability-driven module that generates explanatory reports for downstream tasks.
 
@@ -19,7 +19,7 @@ While the works you mentioned [1,3,4,5] make valuable contributions, they primar
 
 
 
-*$\textbf{Q4:}$ Additional hyper-parameter tuning experiments.*
+$\textbf{Q4:}$ Additional hyper-parameter tuning experiments.
 
 $\textbf{A4:}$ Thanks for your valuable suggestion. Yes, we have used grid search to search the optimal hyper-parameters. Due to space limits, we did not put these experimental results in the manuscript. For clarity, here we list two sets of experiments to investigate the influence of the trade off hyper-parameter $\lambda_1$ and $\lambda_2$, and  the hyper-parameters of learning rate. From table 1, we find out the model performance on **both tasks are relatively robust on different sets of ($\lambda_1$, $\lambda_2$)** and it gains the best performance on (1.0, 1.0). Besides, in table 2, we find out **the model performance on both tasks is still relatively robust**. It gains the best performance when the learning rate is 0.1 while it has relatively large variances. So the learning rate of 0.001 can be a good trade-off value of learning rate.
 
@@ -38,4 +38,6 @@ $\textbf{A4:}$ Thanks for your valuable suggestion. Yes, we have used grid searc
 | **48.28 ± 4.11** | 48.05 ± 3.42| 48.17 ± 3.97 | 47.95 ± 3.72 |**56.32 ± 3.78** | 56.08 ± 3.25 | 56.14 ± 3.14 | 55.94 ± 3.05 | 
 
 
-We sincerely hope our responses have adequately addressed your concerns regarding our paper. If you feel that we have sufficiently addressed all of your concerns in this rebuttal, we would be grateful if you would consider revising your score to reflect this. We welcome any further comments or questions you may have, and we thank you for your thorough review and valuable feedback.
+
+
+To conclude, we sincerely hope our responses have adequately addressed your concerns regarding our paper. If you feel that we have sufficiently addressed all of your concerns in this rebuttal, we would be grateful if you would consider revising your score to reflect this. We welcome any further comments or questions you may have, and we thank you for your thorough review and valuable feedback.
